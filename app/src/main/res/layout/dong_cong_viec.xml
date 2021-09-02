@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+    android:weightSum="10"
+    android:padding="20dp"
+    android:background="#F4D9D9"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:layout_weight="8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dong_cong_viec_ten"
+        android:text="Ten cong viec"
+        android:textSize="30sp"
+        android:textColor="@color/purple_700"
+        />
+    <ImageView
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/IMG_Sua_dong_cv"
+        android:src="@drawable/pencil"/>
+    <ImageView
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/IMG_Xoa_dong_cv"
+        android:src="@drawable/xoa"/>
+
+
+</LinearLayout>
